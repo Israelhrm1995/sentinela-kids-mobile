@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sentinela-kids-mobile/sw.js', { scope: '/sentinela-kids-mobile/' })})}
